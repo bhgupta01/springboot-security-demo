@@ -1,0 +1,18 @@
+# Logging
+logging:
+    level:
+        org:
+            springframework: INFO
+            '[springframework.security]': DEBUG
+
+# Spring
+spring:
+    application:
+        name: spring-security-demo
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        client-id: default
+                        client-secret: default
